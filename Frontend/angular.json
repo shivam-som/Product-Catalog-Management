@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "projects": {
+    "product-app": {
+      "projectType": "application",
+      "root": "src",
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "dist/product-app"
+          }
+        },
+        "serve": {
+          "options": {
+            "browserTarget": "product-app:build"
+          }
+        }
+      }
+    }
+  }
+}
